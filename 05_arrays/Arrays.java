@@ -13,6 +13,14 @@ public class Arrays {
         int[] numbers; // Declaring array (preferred syntax)
         numbers = new int[5]; // Initializing with size 5 (all elements are 0 by default)
 
+        // Use the numbers array by filling it with values
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = i * 10; // Fill array with 0, 10, 20, 30, 40
+        }
+
+        System.out.println("\nNumbers array:");
+        printArray(numbers); // Will print: [0, 10, 20, 30, 40]
+
         // Method 2: Declaration and initialization in one line
         int[] scores = new int[3]; // Creates array of size 3
 
@@ -20,10 +28,11 @@ public class Arrays {
         int[] marks = { 95, 85, 75, 65, 55 }; // Array literal syntax
 
         // Method 4: Alternative syntax (less common)
-        int grades[] = new int[] { 90, 80, 70 }; // Square brackets can be after variable name
+        // int grades[] = new int[] { 90, 80, 70 }; // Square brackets can be after
+        // variable name
 
         // Printing initial arrays
-        System.out.println("Empty array after initialization (default values):");
+        System.out.println("\nEmpty array after initialization (default values):");
         printArray(scores); // Will print: [0, 0, 0]
 
         System.out.println("\nArray initialized with values:");
@@ -71,7 +80,7 @@ public class Arrays {
         };
 
         // Alternative 2D array initialization
-        int[][] grid = new int[2][3]; // 2 rows, 3 columns
+        // int[][] grid = new int[2][3]; // 2 rows, 3 columns
 
         // Accessing 2D array elements
         System.out.println("Accessing 2D array elements:");

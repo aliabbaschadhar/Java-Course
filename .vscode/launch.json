@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Car",
+            "request": "launch",
+            "mainClass": "inheritence_09.Car",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
             "name": "Hello",
             "request": "launch",
             "mainClass": "Hello",

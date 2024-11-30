@@ -1,0 +1,33 @@
+Java Access Modifiers and Their Accessibility
+
+1. private
+   - Accessible only within the same class
+   - Cannot be accessed from outside the class
+   - Provides highest level of encapsulation
+   
+2. default (no modifier)
+   - Accessible within the same package
+   - Not accessible from outside package
+   - No need to write any modifier
+   
+3. protected
+   - Accessible within same package
+   - Accessible to subclasses (even in different packages)
+   - Provides inheritance-based access
+   
+4. public
+   - Accessible everywhere
+   - Can be accessed from any class or package
+   - Provides lowest level of encapsulation
+
+Java Access Modifiers Table
+
++---------------+-------------+------------------+--------------------+-------------------+--------------------+
+| Access        | Same        | Same package     | Same package      | Different        | Different package  |
+| Modifier      | class       | subclass         | non-subclass      | Package subclass | non-subclass       |
++---------------+-------------+------------------+--------------------+-------------------+--------------------+
+| Default       | Yes         | Yes              | Yes               | No               | No                 |
+| Private       | Yes         | No               | No                | No               | No                 |
+| Protected     | Yes         | Yes              | Yes               | Yes              | No                 |
+| Public        | Yes         | Yes              | Yes               | Yes              | Yes                |
++---------------+-------------+------------------+--------------------+-------------------+--------------------+

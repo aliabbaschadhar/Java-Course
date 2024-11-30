@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FunctionalInterface",
+            "request": "launch",
+            "mainClass": "abstraction_11.FunctionalInterface",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
+            "name": "LearnAnonymousClass",
+            "request": "launch",
+            "mainClass": "abstraction_11.LearnAnonymousClass",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
+            "name": "LearnInterface",
+            "request": "launch",
+            "mainClass": "abstraction_11.LearnInterface",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
+            "name": "LearnInnerClass",
+            "request": "launch",
+            "mainClass": "abstraction_11.LearnInnerClass",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
+            "name": "LearnAbstract",
+            "request": "launch",
+            "mainClass": "abstraction_11.LearnAbstract",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "encapsulation_packages_10.package1.Main",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
+            "name": "MainPackage2",
+            "request": "launch",
+            "mainClass": "encapsulation_packages_10.package2.MainPackage2",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
+            "name": "MainPackage2",
+            "request": "launch",
+            "mainClass": "encapsulation_packages_10.pakage2.MainPackage2",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
+            "name": "Teacher",
+            "request": "launch",
+            "mainClass": "encapsulation_packages_10.learnPackages.Teacher",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
             "name": "Car",
             "request": "launch",
             "mainClass": "inheritence_09.Car",

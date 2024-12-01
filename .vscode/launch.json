@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exceptions",
+            "request": "launch",
+            "mainClass": "exceptionHandling_13.Exceptions",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
             "name": "LearnObjectClass",
             "request": "launch",
             "mainClass": "polymorphism_12.LearnObjectClass",

@@ -62,6 +62,16 @@ A comprehensive Java programming journey from fundamentals to advanced Object-Or
   - Virtual method table
   - Upcasting and downcasting
 
+### 4️⃣ Advanced Java Features (Modules 13-14)
+- **Generics** ([`generics_14`](generics_14))
+  - Generic classes and methods
+  - Type parameters
+  - Bounded generics
+  - Generic wildcards
+  - Type erasure
+  - Autoboxing and Unboxing
+    - Wrapper classes
+
 ## 💻 Technical Requirements
 
 - **Java Development Kit (JDK)** 8 or higher

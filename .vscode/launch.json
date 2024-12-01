@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Learngenerics",
+            "request": "launch",
+            "mainClass": "generics_14.Learngenerics",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
             "name": "Exceptions",
             "request": "launch",
             "mainClass": "exceptionHandling_13.Exceptions",

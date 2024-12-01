@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LearnObjectClass",
+            "request": "launch",
+            "mainClass": "polymorphism_12.LearnObjectClass",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
             "name": "FunctionalInterface",
             "request": "launch",
             "mainClass": "abstraction_11.FunctionalInterface",

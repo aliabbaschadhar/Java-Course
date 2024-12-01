@@ -1,7 +1,8 @@
 package abstraction_11;
 
 /**
- * This class demonstrates the usage of Functional Interfaces and Lambda Expressions in Java
+ * This class demonstrates the usage of Functional Interfaces and Lambda
+ * Expressions in Java
  * 
  * Key Points about Functional Interfaces:
  * 1. Contains exactly one abstract method
@@ -44,13 +45,13 @@ public class FunctionalInterfaceDemo {
 // Example 1: Interface with no parameters
 @FunctionalInterface
 interface Greeting {
-    void sayHello();  // Abstract method
+    void sayHello(); // Abstract method
 }
 
 // Example 2: Interface with one parameter and return value
 @FunctionalInterface
 interface Calculator {
-    int calculate(int number);  // Abstract method with return type
+    int calculate(int number); // Abstract method with return type
 }
 
 // Example 3: Interface with multiple parameters

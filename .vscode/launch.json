@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LearnComparableAndComparator",
+            "request": "launch",
+            "mainClass": "javaCollections_15.LearnComparableAndComparator",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
+            "name": "LearnMaps",
+            "request": "launch",
+            "mainClass": "javaCollections_15.LearnMaps",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
+            "name": "ListIter",
+            "request": "launch",
+            "mainClass": "javaCollections_15.ListIter",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
+            "name": "LearnLists",
+            "request": "launch",
+            "mainClass": "javaCollections_15.LearnLists",
+            "projectName": "Java Course_19bdd51c"
+        },
+        {
+            "type": "java",
             "name": "Learngenerics",
             "request": "launch",
             "mainClass": "generics_14.Learngenerics",
